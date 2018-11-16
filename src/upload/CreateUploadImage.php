@@ -6,7 +6,7 @@ require_once '../aliyun-php-sdk/aliyun-php-sdk-core/Config.php';
 
 use vod\Request\V20170321 as vod;
 
-class RefreshUploadVideo
+class CreateUploadImage
 {
     /**
      * 获取图片上传地址和凭证

@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2d83df0-253d-4cd9-ba20-cbd586d1e827" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/upload/CreateUploadImage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/upload/CreateUploadVideo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/upload/RefreshUploadVideo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InitVodClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/InitVodClient.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/upload/CreateUploadImage.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/upload/CreateUploadImage.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,8 +48,8 @@
       <file leaf-file-name="CreateUploadImage.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/upload/CreateUploadImage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="176">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -85,9 +82,9 @@
         <option value="$PROJECT_DIR$/src/aliyun-php-sdk/upload/RefreshUploadVideo.php" />
         <option value="$PROJECT_DIR$/src/Upload.php" />
         <option value="$PROJECT_DIR$/src/aliyun-php-sdk/InitVodClient.php" />
-        <option value="$PROJECT_DIR$/src/upload/CreateUploadImage.php" />
         <option value="$PROJECT_DIR$/src/upload/CreateUploadVideo.php" />
         <option value="$PROJECT_DIR$/src/upload/RefreshUploadVideo.php" />
+        <option value="$PROJECT_DIR$/src/upload/CreateUploadImage.php" />
       </list>
     </option>
   </component>
@@ -132,6 +129,12 @@
               <item name="vod" type="b2602c69:ProjectViewProjectNode" />
               <item name="vod" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vod" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vod" type="b2602c69:ProjectViewProjectNode" />
@@ -183,12 +186,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542357280454</updated>
-      <workItem from="1542357281939" duration="3791000" />
+      <workItem from="1542357281939" duration="4457000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3791000" />
+    <option name="totallyTimeSpent" value="4457000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="0" />
@@ -248,8 +251,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/upload/CreateUploadImage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="176">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
