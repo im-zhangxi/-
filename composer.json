@@ -1,0 +1,21 @@
+{
+    "name": "zhangxi/vod",
+    "description": "aliyun-php-sdk vod",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Zach",
+            "email": "834688422@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    	"php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+          "Zach\\Aliyun\\": "src/"
+        }
+    }
+}
