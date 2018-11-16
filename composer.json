@@ -3,6 +3,7 @@
     "description": "aliyun-php-sdk vod",
     "license": "MIT",
     "type": "library",
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Zach",
