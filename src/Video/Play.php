@@ -2,8 +2,6 @@
 
 namespace Zach\Aliyun\Video;
 
-s
-
 class Play extends Base
 {
     /**
