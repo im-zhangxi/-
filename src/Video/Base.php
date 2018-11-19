@@ -4,8 +4,7 @@ namespace Zach\Aliyun\Video;
 
 use http\Exception\BadMessageException;
 
-
-require_once '../aliyun-php-sdk/aliyun-php-sdk-core/Config.php';   // 假定您的源码文件和aliyun-php-sdk处于同一目录
+require_once __DIR__.'/../aliyun-php-sdk/aliyun-php-sdk-core/Config.php';   // 假定您的源码文件和aliyun-php-sdk处于同一目录
 
 class Base
 {

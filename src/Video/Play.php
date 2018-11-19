@@ -2,6 +2,8 @@
 
 namespace Zach\Aliyun\Video;
 
+use vod\Request\V20170321 as vod;
+
 class Play extends Base
 {
     /**
