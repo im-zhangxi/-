@@ -87,6 +87,22 @@ class Video extends Base
     }
 
     /**
+     * 批量获取视频根据videoIds
+     * @param $client
+     * @param $videoIds
+     * @return mixed
+     */
+    function get_video_infos($client, $videoIds)
+    {
+        $request = new vod\GetVideoInfosRequest();
+
+        $request->setVideoIds($videoIds);
+        $request->setAcceptFormat('JSON');
+
+        return $client->getAcsResponse($request);
+    }
+
+    /**
      * 删除媒体流
      * 可删除视频流或音频流信息及存储文件，并支持批量删除；删除后当CDN缓存过期，该路流会无法播放，请谨慎操作
      * @param $client
