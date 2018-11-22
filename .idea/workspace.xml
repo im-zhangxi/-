@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2d83df0-253d-4cd9-ba20-cbd586d1e827" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Video/Video.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Video/Video.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aliyun-php-sdk/aliyun-php-sdk-vod/vod/Request/V20170321/SearchMediaRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/aliyun-php-sdk/aliyun-php-sdk-vod/vod/Request/V20170321/SearchMediaRequest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,8 +29,8 @@
       <file leaf-file-name="Video.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Video/Video.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="664">
-              <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
+            <state relative-caret-position="644">
+              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -82,6 +80,7 @@
       <find>in</find>
       <find>setStatus</find>
       <find>GetVideoInfos</find>
+      <find>update</find>
     </findStrings>
     <dirStrings>
       <dir>E:\vod\src\aliyun-php-sdk\aliyun-php-sdk-vod\vod\Request\V20170321</dir>
@@ -234,12 +233,12 @@
       <updated>1542357280454</updated>
       <workItem from="1542357281939" duration="13845000" />
       <workItem from="1542680506106" duration="1238000" />
-      <workItem from="1542705560038" duration="2783000" />
+      <workItem from="1542705560038" duration="3776000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17866000" />
+    <option name="totallyTimeSpent" value="18859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1916" y="4" width="1936" height="1056" extended-state="0" />
@@ -429,8 +428,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Video/Video.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="664">
-          <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
+        <state relative-caret-position="644">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
         </state>
       </provider>
     </entry>

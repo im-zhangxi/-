@@ -24,14 +24,30 @@ class Video extends Base
      * @param $videoId
      * @return mixed
      */
-    function update_video_info($client, $videoId) {
+    function update_video_info($client, $videoId, $input) {
         $request = new vod\UpdateVideoInfoRequest();
         $request->setVideoId($videoId);
-        $request->setTitle('New Title');   // 更改视频标题
-        $request->setDescription('New Description');    // 更改视频描述
-        $request->setCoverURL('http://img.alicdn.com/tps/TB1qnJ1PVXXXXXCXXXXXXXXXXXX-700-700.png');  // 更改视频封面
-        $request->setTags('tag1,tag2');    // 更改视频标签，多个用逗号分隔
-        $request->setCateId(0);       // 更改视频分类(可在点播控制台·全局设置·分类管理里查看分类ID：https://vod.console.aliyun.com/#/vod/settings/category)
+
+        if (empty($input['title'])) {
+            $request->setTitle($input['title']);   // 更改视频标题
+        }
+
+        if (empty($input['description'])) {
+            $request->setDescription($input['description']);    // 更改视频描述
+        }
+
+        if (empty($input['cover_url'])) {
+            $request->setCoverURL($input['cover_url']);  // 更改视频封面
+        }
+
+        if (empty($input['tags'])) {
+            $request->setTags($input['tags']);    // 更改视频标签，多个用逗号分隔
+        }
+
+        if (empty($input['cate_id'])) {
+            $request->setCateId($input['cate_id']);       // 更改视频分类(可在点播控制台·全局设置·分类管理里查看分类ID：https://vod.console.aliyun.com/#/vod/settings/category)
+        }
+
         $request->setAcceptFormat('JSON');
         return $client->getAcsResponse($request);
     }
