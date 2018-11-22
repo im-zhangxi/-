@@ -28,23 +28,23 @@ class Video extends Base
         $request = new vod\UpdateVideoInfoRequest();
         $request->setVideoId($videoId);
 
-        if (empty($input['title'])) {
+        if (!empty($input['title'])) {
             $request->setTitle($input['title']);   // 更改视频标题
         }
 
-        if (empty($input['description'])) {
+        if (!empty($input['description'])) {
             $request->setDescription($input['description']);    // 更改视频描述
         }
 
-        if (empty($input['cover_url'])) {
+        if (!empty($input['cover_url'])) {
             $request->setCoverURL($input['cover_url']);  // 更改视频封面
         }
 
-        if (empty($input['tags'])) {
+        if (!empty($input['tags'])) {
             $request->setTags($input['tags']);    // 更改视频标签，多个用逗号分隔
         }
 
-        if (empty($input['cate_id'])) {
+        if (!empty($input['cate_id'])) {
             $request->setCateId($input['cate_id']);       // 更改视频分类(可在点播控制台·全局设置·分类管理里查看分类ID：https://vod.console.aliyun.com/#/vod/settings/category)
         }
 

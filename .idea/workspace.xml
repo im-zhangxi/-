@@ -29,8 +29,8 @@
       <file leaf-file-name="Video.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Video/Video.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+            <state relative-caret-position="578">
+              <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -81,6 +81,7 @@
       <find>setStatus</find>
       <find>GetVideoInfos</find>
       <find>update</find>
+      <find>update_video_info</find>
     </findStrings>
     <dirStrings>
       <dir>E:\vod\src\aliyun-php-sdk\aliyun-php-sdk-vod\vod\Request\V20170321</dir>
@@ -233,12 +234,12 @@
       <updated>1542357280454</updated>
       <workItem from="1542357281939" duration="13845000" />
       <workItem from="1542680506106" duration="1238000" />
-      <workItem from="1542705560038" duration="3776000" />
+      <workItem from="1542705560038" duration="4630000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18859000" />
+    <option name="totallyTimeSpent" value="19713000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1916" y="4" width="1936" height="1056" extended-state="0" />
@@ -428,8 +429,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Video/Video.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        <state relative-caret-position="578">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
         </state>
       </provider>
     </entry>
