@@ -12,10 +12,11 @@ class Play extends Base
      * @param $videoId
      * @return mixed
      */
-    function get_play_info($client, $videoId) {
+    function get_play_info($client, $videoId, $formats = 'mp4', $authTimeout = 3600) {
         $request = new vod\GetPlayInfoRequest();
         $request->setVideoId($videoId);
-        $request->setAuthTimeout(3600*24);    // 播放地址过期时间（只有开启了URL鉴权才生效），默认为3600秒，支持设置最小值为3600秒
+        $request->setFormats($formats);
+        $request->setAuthTimeout($authTimeout);    // 播放地址过期时间（只有开启了URL鉴权才生效），默认为3600秒，支持设置最小值为3600秒
         $request->setAcceptFormat('JSON');
 
         return $client->getAcsResponse($request);

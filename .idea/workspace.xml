@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2d83df0-253d-4cd9-ba20-cbd586d1e827" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Video/Video.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Video/Video.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Video/Play.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Video/Play.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,13 +21,13 @@
       <file leaf-file-name="Upload.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Video/Upload.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="96">
               <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Video.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Video.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Video/Video.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="578">
@@ -35,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GetVideoInfosRequest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aliyun-php-sdk/aliyun-php-sdk-vod/vod/Request/V20170321/GetVideoInfosRequest.php">
+      <file leaf-file-name="Play.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Video/Play.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="35" column="22" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="22" />
+            <state relative-caret-position="564">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -47,7 +48,7 @@
       <file leaf-file-name="endpoints.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/aliyun-php-sdk/aliyun-php-sdk-core/Regions/endpoints.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
+            <state relative-caret-position="9648">
               <caret line="402" column="63" selection-start-line="402" selection-start-column="63" selection-end-line="402" selection-end-column="63" />
             </state>
           </provider>
@@ -56,8 +57,8 @@
       <file leaf-file-name="Base.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Video/Base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+            <state relative-caret-position="504">
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -65,7 +66,7 @@
       <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="408">
               <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
             </state>
           </provider>
@@ -113,9 +114,9 @@
         <option value="$PROJECT_DIR$/src/video/Upload.php" />
         <option value="$PROJECT_DIR$/src/Video/Upload.php" />
         <option value="$PROJECT_DIR$/src/Video/Base.php" />
-        <option value="$PROJECT_DIR$/src/Video/Play.php" />
         <option value="$PROJECT_DIR$/src/aliyun-php-sdk/aliyun-php-sdk-vod/vod/Request/V20170321/SearchMediaRequest.php" />
         <option value="$PROJECT_DIR$/src/Video/Video.php" />
+        <option value="$PROJECT_DIR$/src/Video/Play.php" />
       </list>
     </option>
   </component>
@@ -149,6 +150,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,13 +173,6 @@
               <item name="vod" type="b2602c69:ProjectViewProjectNode" />
               <item name="vod" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="aliyun-php-sdk" type="462c0819:PsiDirectoryNode" />
-              <item name="aliyun-php-sdk-vod" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vod" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vod" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Video" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -188,11 +183,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
@@ -235,35 +230,36 @@
       <workItem from="1542357281939" duration="13845000" />
       <workItem from="1542680506106" duration="1238000" />
       <workItem from="1542705560038" duration="4630000" />
+      <workItem from="1547092171425" duration="438000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19713000" />
+    <option name="totallyTimeSpent" value="20151000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1916" y="4" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20515575" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30520833" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +269,48 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Video/Upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aliyun-php-sdk/aliyun-php-sdk-vod/vod/Request/V20170321/GetVideoInfosRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aliyun-php-sdk/aliyun-php-sdk-core/Regions/endpoints.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9648">
+          <caret line="402" column="63" selection-start-line="402" selection-start-column="63" selection-end-line="402" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Video/Base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Video/Video.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Video/Upload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -366,36 +404,29 @@
     <entry file="file://$PROJECT_DIR$/.env" />
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="408">
           <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Video/Upload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="96">
           <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Video/Base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        <state relative-caret-position="504">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/aliyun-php-sdk/aliyun-php-sdk-core/Regions/endpoints.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
+        <state relative-caret-position="9648">
           <caret line="402" column="63" selection-start-line="402" selection-start-column="63" selection-end-line="402" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Video/Play.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="708">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -413,13 +444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aliyun-php-sdk/aliyun-php-sdk-vod/vod/Request/V20170321/GetVideoInfosRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="35" column="22" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/aliyun-php-sdk/aliyun-php-sdk-vod/vod/Request/V20170321/SearchMediaRequest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -427,10 +451,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/aliyun-php-sdk/aliyun-php-sdk-vod/vod/Request/V20170321/GetVideoInfosRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-276">
+          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Video/Video.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Video/Play.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
