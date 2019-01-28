@@ -39,6 +39,10 @@ class Upload extends Base
             $request->setTags($input['tags']);  // 视频标签，多个用逗号分隔(可选)
         }
 
+        if (!empty($input['cate_id'])) {
+            $request->setCateId($input['cate_id']);  // 视频分类，多个用逗号分隔(可选)
+        }
+
         $request->setAcceptFormat('JSON');
 
 
