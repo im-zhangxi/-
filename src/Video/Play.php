@@ -28,10 +28,10 @@ class Play extends Base
      * @param $videoId
      * @return mixed
      */
-    function get_play_auth($client, $videoId) {
+    function get_play_auth($client, $videoId, $authInfoTimeout = 3000) {
         $request = new vod\GetVideoPlayAuthRequest();
         $request->setVideoId($videoId);
-        $request->setAuthInfoTimeout(3600);  // 播放凭证过期时间，默认为100秒，取值范围100~3600；注意：播放凭证用来传给播放器自动换取播放地址，凭证过期时间不是播放地址的过期时间
+        $request->setAuthInfoTimeout($authInfoTimeout);  // 播放凭证过期时间，默认为100秒，取值范围100~3600；注意：播放凭证用来传给播放器自动换取播放地址，凭证过期时间不是播放地址的过期时间
         $request->setAcceptFormat('JSON');
         $response = $client->getAcsResponse($request);
 
