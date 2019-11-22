@@ -55,7 +55,7 @@ class LocationService
     public function findProductDomain($regionId, $serviceCode, $endPointType, $product)
     {
         $key = $regionId . '#' . $product;
-        @$domain = self::$cache[$key];
+        @$domain = self::$cache[$key] ?? null;
         if ($domain == null || $this->checkCacheIsExpire($key) == true) {
             $domain = $this->findProductDomainFromLocationService($regionId, $serviceCode, $endPointType);
             self::$cache[$key] = $domain;
