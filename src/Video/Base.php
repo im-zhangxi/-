@@ -19,7 +19,7 @@ class Base
     {
         foreach ($requiredList as $required => $value) {
             if (empty($input[$required])) {
-                throw new BadMessageException($value);
+                throw new \BadMethodCallException($value);
             }
         }
 
