@@ -11,8 +11,7 @@
         }
     ],
     "require": {
-    	"php": ">=5.4",
-      "ext-http": "*"
+    	"php": ">=5.4"
     },
     "autoload": {
         "psr-4": {
